@@ -1,0 +1,39 @@
+Send: M503
+Recv: echo:; Linear Units:
+Recv: echo:  G21 ; (mm)
+Recv: echo:; Temperature Units:
+Recv: echo:  M149 C ; Units in Celsius
+Recv: echo:; Steps per unit:
+Recv: echo:  M92 X80.00 Y80.00 Z400.00 E400.00
+Recv: echo:; Max feedrates (units/s):
+Recv: echo:  M203 X400.00 Y400.00 Z15.00 E200.00
+Recv: echo:; Max Acceleration (units/s2):
+Recv: echo:  M201 X2500.00 Y2500.00 Z500.00 E5000.00
+Recv: echo:; Acceleration (units/s2) (P<print-accel> R<retract-accel> T<travel-accel>):
+Recv: echo:  M204 P1500.00 R1000.00 T1500.00
+Recv: echo:; Advanced (B<min_segment_time_us> S<min_feedrate> T<min_travel_feedrate> X<max_jerk> Y<max_jerk> Z<max_jerk> E<max_jerk>):
+Recv: echo:  M205 B20000.00 S0.00 T0.00 X8.00 Y8.00 Z0.30 E5.00
+Recv: echo:; Home offset:
+Recv: echo:  M206 X3.50 Y-11.25 Z0.00
+Recv: echo:; Auto Bed Leveling:
+Recv: echo:  M420 S0 ; Leveling OFF
+Recv: echo:; Material heatup parameters:
+Recv: echo:  M145 S0 H200.00 B60.00 F0
+Recv: echo:  M145 S1 H240.00 B100.00 F0
+Recv: echo:; Hotend PID:
+Recv: echo:  M301 P31.17 I2.87 D84.75
+Recv: echo:; Bed PID:
+Recv: echo:  M304 P91.36 I17.84 D311.82
+Recv: echo:; Z-Probe Offset:
+Recv: echo:  M851 X-44.00 Y-10.50 Z-5.80 ; (mm)
+Recv: echo:; Stepper driver current:
+Recv: echo:  M906 X600 Y600 Z700
+Recv: echo:  M906 T0 E650
+Recv: 
+Recv: echo:; Driver stepping mode:
+Recv: echo:  M569 S1 X Y Z
+Recv: echo:; Filament load/unload:
+Recv: echo:  M603 L20.00 U20.00 ; (mm)
+Recv: echo:; Filament runout sensor:
+Recv: echo:  M412 S1 ; Sensor ON
+Recv: ok
