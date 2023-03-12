@@ -170,7 +170,7 @@
 // If you need to reverse the e motor direction also enabled the REVERSE_E_MOTOR_DIRECTION option.
 // Example EStep Values: TH3D Aluminum Extruder - 95 ESteps, TH3D Tough Extruder - 410 ESteps, BMG Extruder - 415 ESteps
 // When installing a Tough Extruder or E3D Titan or Bondtech that is Geared you likely need to enable the REVERSE_E_MOTOR_DIRECTION option
-//#define CUSTOM_ESTEPS
+#define CUSTOM_ESTEPS
 #define CUSTOM_ESTEPS_VALUE 410
 //#define REVERSE_E_MOTOR_DIRECTION
 
@@ -277,7 +277,7 @@
 
 // BTT TOUCH SCREEN --------------------------------
 // If you are using the BTT Touch Screen uncomment the below line to enable additional options per the BTT docs they recommend for use with their LCD
-//#define BTT_TOUCH_SCREEN
+#define BTT_TOUCH_SCREEN
 
 // HOME OFFSET ADJUSTMENT --------------------------
 // If you need to adjust your XY home offsets from defaults then you can uncomment the HOME_ADJUST line below and enter your
